@@ -1,0 +1,61 @@
+body {
+    margin: 0 auto;
+    max-width: 55%;
+    text-align: justify;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    background-color: rgba(250, 255, 255, 0.986);
+    color: rgb(40, 91, 107);
+    padding: 20px;
+  }
+
+.sarka {
+    width: 150px;
+    height: auto;
+    border-radius: 15% 2% 15% 15%;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+h2 {
+      clear: left;
+  }
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(12, 85, 85);
+  }
+
+a {
+    color: darkslategrey;
+  }
+
+  a:link {
+    color: darkcyan;
+  }
+
+  a:visited {
+  color: darkslateblue
+}
+
+.kontakt {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 10px solid darkcyan;
+  border-bottom: 10px solid darkcyan;
+}
+.kontakt li {
+  display: inline-block;
+}
+
+.kontakt a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.hlavicka {
+  border-top: 10px solid darkcyan;
+}
