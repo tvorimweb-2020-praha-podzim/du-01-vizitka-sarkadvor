@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 55%;
+    max-width: 50%;
     text-align: justify;
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     background-color: rgba(250, 255, 255, 0.986);
@@ -46,6 +46,7 @@ a {
   border-top: 10px solid darkcyan;
   border-bottom: 10px solid darkcyan;
 }
+
 .kontakt li {
   display: inline-block;
 }
@@ -58,4 +59,36 @@ a {
 
 .hlavicka {
   border-top: 10px solid darkcyan;
+}
+
+.navigace {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px dashed darkcyan;
+  border-bottom: 10px solid darkcyan;
+}
+
+.navigace li {
+  display: inline-block;
+}
+
+.navigace a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.cesta {
+  width: 700px;
+  height: auto;
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.knizky {
+  border-bottom: 2px dashed darkcyan;
 }
