@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 1000px;
     text-align: justify;
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     background-color: rgba(250, 255, 255, 0.986);
@@ -36,7 +36,7 @@ a {
   }
 
   a:visited {
-  color: darkslateblue
+  color: rgb(37, 94, 133)
 }
 
 .kontakt {
@@ -57,6 +57,7 @@ a {
   padding: 20px 30px;
 }
 
+
 .hlavicka {
   border-top: 10px solid darkcyan;
 }
@@ -65,7 +66,7 @@ a {
   margin: 0;
   padding: 0;
   text-align: center;
-  border-top: 2px dashed darkcyan;
+  border-top: 2px solid darkcyan;
   border-bottom: 10px solid darkcyan;
 }
 
@@ -91,4 +92,15 @@ a {
 
 .knizky {
   border-bottom: 2px dashed darkcyan;
+}
+
+.navigace a,
+.kontakt a {
+  background-color:rgba(209, 238, 238, 0.808);
+  border-radius: 10%;
+}
+
+main {
+  background-color:smoke-white;
+  padding: 1rem;
 }
